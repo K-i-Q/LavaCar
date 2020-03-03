@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LavaCar.Web.Api", "LavaCar.Web.Api\LavaCar.Web.Api.csproj", "{51AC0E21-1D11-469F-B3FB-C855E86783BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LavaCar.Domain", "LavaCar.Domain\LavaCar.Domain.csproj", "{4466D0ED-D259-452B-9EE8-79334240EA30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LavaCar.Repository", "LavaCar.Repository\LavaCar.Repository.csproj", "{A4E7F286-D329-460D-9E15-911862755E0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LavaCar.Web.Mvc", "LavaCar.Web.Mvc\LavaCar.Web.Mvc.csproj", "{C9F27CA7-2E81-426E-9EAA-D14E23D4B17C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{51AC0E21-1D11-469F-B3FB-C855E86783BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51AC0E21-1D11-469F-B3FB-C855E86783BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51AC0E21-1D11-469F-B3FB-C855E86783BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4466D0ED-D259-452B-9EE8-79334240EA30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4466D0ED-D259-452B-9EE8-79334240EA30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4466D0ED-D259-452B-9EE8-79334240EA30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4466D0ED-D259-452B-9EE8-79334240EA30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4E7F286-D329-460D-9E15-911862755E0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4E7F286-D329-460D-9E15-911862755E0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4E7F286-D329-460D-9E15-911862755E0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4E7F286-D329-460D-9E15-911862755E0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9F27CA7-2E81-426E-9EAA-D14E23D4B17C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9F27CA7-2E81-426E-9EAA-D14E23D4B17C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9F27CA7-2E81-426E-9EAA-D14E23D4B17C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9F27CA7-2E81-426E-9EAA-D14E23D4B17C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
